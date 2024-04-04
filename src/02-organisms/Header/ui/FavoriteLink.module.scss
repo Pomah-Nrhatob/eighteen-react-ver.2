@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../../public/Montserrat_font/Montserrat-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+}
+
+.favoriteLink_img {
+  height: 1.2rem;
+}
+
+.favoriteLink_main {
+  display: flex;
+  gap: 6.62px;
+  align-items: center;
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-size: 16px;
+  color: #202025;
+  font-weight: 400;
+  min-width: 50px;
+}
+
+.alterCount_img {
+  height: 0.35rem;
+  margin-left: -5%;
+  margin-top: -40%;
+}

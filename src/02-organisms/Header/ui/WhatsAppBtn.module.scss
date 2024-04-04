@@ -1,0 +1,45 @@
+@use "sass:map";
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../../public/Montserrat_font/Montserrat-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+}
+
+$btn: (
+  "border-style": none,
+  "background-color": transparent,
+  "cursor": pointer,
+);
+
+.whatsAppBtn_div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.whatsAppBtn_img {
+  @each $key, $value in $btn {
+    #{$key}: $value;
+  }
+  height: 1.5rem;
+}
+
+.whatsAppBtn_number,
+.whatsAppBtn {
+  @each $key, $value in $btn {
+    #{$key}: $value;
+  }
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 24px;
+  color: #202025;
+  padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+  .whatsAppBtn_div {
+    display: none;
+  }
+}

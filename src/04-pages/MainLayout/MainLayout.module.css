@@ -1,0 +1,8 @@
+.mainLayot::-webkit-scrollbar {
+  background-color: #ffffff;
+  width: 3px;
+}
+
+.mainLayot::-webkit-scrollbar-thumb {
+  background-color: #a1330a;
+}

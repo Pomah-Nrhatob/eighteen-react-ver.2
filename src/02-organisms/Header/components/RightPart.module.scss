@@ -1,0 +1,17 @@
+.rightPart_div {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+@media screen and (orientation: portrait) {
+  .rightPart_div {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .searchBtn_btn {
+    display: none;
+  }
+}

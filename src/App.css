@@ -1,0 +1,13 @@
+.navBar-open-enter {
+  margin-left: -320px;
+}
+.navBar-open-enter-active {
+  transition: transform 100ms;
+}
+.navBar-open-exit {
+  transform: translateX(0px);
+}
+.navBar-open-exit-active {
+  transform: translateX(-320px);
+  transition: transform 200ms;
+}

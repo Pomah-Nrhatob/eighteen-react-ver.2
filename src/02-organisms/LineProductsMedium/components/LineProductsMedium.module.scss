@@ -1,0 +1,11 @@
+.lineProductsMedium_divMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 48px 0 0 0;
+  height: 38vw;
+}
+
+.lineProductsMedium_divMain::-webkit-scrollbar {
+  display: none;
+}

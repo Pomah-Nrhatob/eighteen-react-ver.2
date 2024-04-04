@@ -1,0 +1,13 @@
+.div_main {
+  height: 4px;
+  width: 80%;
+  display: flex;
+  gap: 4px;
+}
+
+.div_half {
+  background-color: white;
+  opacity: 0.5;
+  width: 100%;
+  transition: 0.3s;
+}

@@ -1,0 +1,31 @@
+.header_main {
+  margin: 16px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 1080px) {
+  .header_main {
+    flex-wrap: wrap;
+  }
+
+  .header_centralPart {
+    order: 0;
+    width: 100%;
+  }
+
+  .header_leftPart {
+    order: 1;
+  }
+
+  .header_rightPart {
+    order: 1;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .header_main {
+    margin: 16px 16px;
+  }
+}

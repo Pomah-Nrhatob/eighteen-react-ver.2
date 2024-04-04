@@ -1,0 +1,1 @@
+export const SET_START_BANNERS = "SET_START_BANNERS";

@@ -1,0 +1,17 @@
+.mainDiv {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (min-width: 1081px) {
+  .searchBtn_btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .mainDiv {
+    gap: 24px;
+  }
+}

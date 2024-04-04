@@ -1,0 +1,22 @@
+.btn_circle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #202025;
+  opacity: 20%;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left: 1vw;
+  transition: 0.5s;
+  margin: 0;
+}
+
+.btn_circle:hover {
+  opacity: 40%;
+}
+
+.btn {
+  rotate: 180deg;
+  vertical-align: middle;
+}

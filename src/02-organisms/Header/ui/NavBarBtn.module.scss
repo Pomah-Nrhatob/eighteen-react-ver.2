@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../../../../public/Montserrat_font/Montserrat-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+}
+
+.navBarBtn_div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navBarBtn_img {
+  height: 0.8rem;
+}
+
+.navBarBtn {
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navBarBtn_h3 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: #202025;
+}
+
+@media screen and (max-width: 1080px) {
+  .navBarBtn_h3 {
+    display: none;
+  }
+}

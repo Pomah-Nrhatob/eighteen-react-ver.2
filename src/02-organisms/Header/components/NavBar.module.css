@@ -1,0 +1,61 @@
+.navBar_div {
+  margin-top: -15px;
+  max-height: 97.5vh;
+  width: 320px;
+  position: absolute;
+  background-color: #ffffff;
+  overflow-y: auto;
+  padding-bottom: 16px;
+  transition: 0.3s;
+}
+
+.navBar_div::-webkit-scrollbar {
+  background-color: #ffffff;
+  width: 3px;
+}
+
+.navBar_div::-webkit-scrollbar-thumb {
+  background-color: #a1330a;
+}
+
+.navBar_header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #a1330a;
+  margin: 24px 24px 0 24px;
+}
+
+.navBar_btnCancel {
+  font-size: 2rem;
+  color: #202025;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navBar_btnCancel:hover {
+  color: #a1330a;
+}
+
+.catalogsList_ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogsList_ul > a {
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #202025;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0;
+  margin-left: 24px;
+}
+
+.catalogsList_ul > a:hover {
+  color: #a1330a;
+}

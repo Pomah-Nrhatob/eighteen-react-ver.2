@@ -1,0 +1,16 @@
+.userBtn_img {
+  height: 1.5rem;
+}
+
+.userBtn_btn {
+  padding: 0;
+  border-style: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1080px) {
+  .userBtn_btn {
+    display: none;
+  }
+}

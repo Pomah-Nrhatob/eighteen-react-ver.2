@@ -1,0 +1,12 @@
+.scrollLine_main {
+  display: flex;
+  height: 85vh;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.scrollLine_main::-webkit-scrollbar {
+  display: none;
+}

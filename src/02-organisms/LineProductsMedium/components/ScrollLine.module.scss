@@ -1,0 +1,24 @@
+.scrollLine_divMain {
+  height: 100%;
+  display: flex;
+  gap: 16px;
+  margin-left: 48px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.twoBtn {
+  align-self: center;
+}
+
+.scrollLine_divMain2 {
+  height: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  overflow: hidden;
+}
+
+.scrollLine_divMain2::-webkit-scrollbar {
+  display: none;
+}
